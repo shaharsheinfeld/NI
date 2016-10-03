@@ -1,0 +1,6 @@
+com\restapi\ni\configuration\NIPetsConfiguration.class
+com\restapi\ni\configuration\NIPetsInitializer.class
+com\restapi\ni\model\Animal.class
+com\restapi\ni\service\AnimalServiceInterface.class
+com\restapi\ni\controller\NIPetsRestController.class
+com\restapi\ni\service\AnimalService.class
