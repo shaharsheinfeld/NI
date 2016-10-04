@@ -1,5 +1,3 @@
-
-
 public class DeadLock {
 	
 	 public static void main(String[] args) {
@@ -18,7 +16,7 @@ public class DeadLock {
 		
 		int index = 1; 
 		try {
-			while(index <= 100){				
+			while(index <= 10000){				
 				danielThread.start();
 				nirThread.start(); 
 				System.out.println("index " + index);
